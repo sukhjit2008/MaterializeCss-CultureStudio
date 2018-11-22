@@ -1,0 +1,50 @@
+.main-header{
+    background:url(img/culture-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+
+}
+
+.nav-wraper{
+    position:fixed;
+}
+
+.brand-logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidenav{
+
+    z-index: 1;
+}
+
+.main-section .container{
+    margin-top:4rem;
+}
+ .parallax-container{
+     margin-top:4rem;
+ }
+#services{
+    padding:4rem 0;
+}
+
+.tabs .indicator{
+    background-color: #1a237e !important;
+}
+.tabs .tab a:focus , .tabs .tab a:focus.active{
+    background: transparent !important;
+}
+#contact{
+    margin-top:4rem;
+}
+
+.page-footer{
+    margin-top:4rem;
+}
+
+@media (max-width:40rem){
+.main-header{
+    min-height: 500px;
+}
+}
